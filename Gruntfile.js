@@ -53,6 +53,15 @@ module.exports = function(grunt) {
 				"public/css/app/spa.min.css": ["public/css/app/spa.css"]
 			}
 		}
+	},
+	watch: {
+	  css: {
+	    files: '**/*.less',
+	    tasks: ['grunt'],
+	    options: {
+	      livereload: true,
+	    },
+	  }
 	}
 
   });
@@ -63,6 +72,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-contrib-jst");
   grunt.loadNpmTasks("grunt-contrib-copy");
   grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
 
   // Default task(s).
