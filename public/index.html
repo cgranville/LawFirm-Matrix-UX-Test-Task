@@ -168,6 +168,43 @@
 					]
 				},
 				{
+					tmpl: "container",
+					id: "companyForm",
+					style: "form",
+					customStyle: "formCompany",
+					classes: "col-sm-12",
+					blocks: [
+						{
+							tmpl: "label",
+							highlight: "label label-default label-bigger",
+							text: "Company Form",
+							id: "lblCompnayForm"
+						},
+						{
+							tmpl: "input",
+							label: "Company Name:",
+							id: "coName",
+							inputType: "text",
+							placeholder: "Compnay Name"
+						},
+						{
+							tmpl: "input",
+							label: "Number of Employees:",
+							id: "numberEmployees",
+							inputType: "text",
+							placeholder: "Number of Employees"
+						},
+						{
+							tmpl: "button",
+							type: "Button",
+							classes: "btn btn-xs btn-primary",
+							text: "Submit",
+							id: "btnSubmit",
+							name: "btnSubmit"
+						}
+					]
+				},
+				{
 					tmpl: "button",
 					type: "Button",
 					classes: "btn btn-xs btn-primary",

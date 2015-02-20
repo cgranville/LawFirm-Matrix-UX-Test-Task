@@ -40,6 +40,9 @@
 #personForm button.dropdown-toggle {
   background: blue;
 }
+#companyForm .form-group label[for='numberEmployees'] {
+  color: red;
+}
 .label-bigger {
   font-size: 220%;
   margin-bottom: 10px;
