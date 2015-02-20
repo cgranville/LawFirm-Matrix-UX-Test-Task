@@ -32,7 +32,10 @@
   left: auto;
 }
 .block-dropdown button.dropdown-toggle .caret {
-  margin-left: 3px;
+  padding-left: 3px;
+}
+#personForm button.dropdown-toggle {
+  background: blue;
 }
 .label-bigger {
   font-size: 220%;
