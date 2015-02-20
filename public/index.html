@@ -16,6 +16,10 @@
 
 		<div id="application">
 			<div id="container" class="main-content container-fluid no-padding">
+			<div id="forms" class="row">
+				
+
+			</div>
 
 			</div>
 		</div>
@@ -24,14 +28,14 @@
 		<script src="js/vendor/underscore.min.js"></script>
 		<script src="js/tmpl/templates.js"></script>
 		<script>
-		var container = $("#container"),
+		var container = $("#forms"),
 			blocks = [
 				{
 					tmpl: "container",
 					id: "personForm",
 					style: "form",
 					customStyle: "formPerson",
-					classes: "container container-fluid",
+					classes: "col-sm-12 col-md-6",
 					blocks: [
 						{
 							tmpl: "label",
@@ -91,7 +95,7 @@
 					id: "employeeForm",
 					style: "form",
 					customStyle: "formEmployee",
-					classes: "container container-fluid col-md-4",
+					classes: "col-sm-12 col-md-6",
 					blocks: [
 						{
 							tmpl: "label",
