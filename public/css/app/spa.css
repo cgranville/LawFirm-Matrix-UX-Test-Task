@@ -1,6 +1,6 @@
 .block-dropdown button.dropdown-toggle {
   position: relative;
-  margin-left: 5px;
+  margin-left: 5px !important;
   margin-right: 5px;
 }
 .block-dropdown button.dropdown-toggle:before,
