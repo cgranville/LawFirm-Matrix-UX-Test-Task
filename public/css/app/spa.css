@@ -34,6 +34,9 @@
 .block-dropdown button.dropdown-toggle .caret {
   padding-left: 3px;
 }
+#personForm .form-group label[for='ipName'] {
+  color: blue;
+}
 #personForm button.dropdown-toggle {
   background: blue;
 }
